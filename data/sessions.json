@@ -25,5 +25,68 @@
     "ended_at": "2026-10-08T19:50",
     "kwh": 18.0,
     "status": "complete"
+  },
+  {
+    "session_id": "ch-003a",
+    "vehicle_key": "v-9",
+    "station_id": "S-01",
+    "started_at": "2026-10-15T12:00",
+    "ended_at": "2026-10-15T12:50",
+    "kwh": 15.0,
+    "status": "complete"
+  },
+  {
+    "session_id": "ch-003b",
+    "vehicle_key": "v-9",
+    "station_id": "S-02",
+    "started_at": "2026-10-15T12:55",
+    "ended_at": "2026-10-15T13:40",
+    "kwh": 17.5,
+    "status": "complete"
+  },
+  {
+    "session_id": "ch-005",
+    "vehicle_key": "v-3",
+    "station_id": "S-01",
+    "started_at": "2026-10-08T18:20",
+    "ended_at": "2026-10-08T19:05",
+    "kwh": 24.0,
+    "status": "complete"
+  },
+  {
+    "session_id": "ch-006",
+    "vehicle_key": null,
+    "station_id": "S-03",
+    "started_at": "2026-10-08T18:15",
+    "ended_at": "2026-10-08T18:50",
+    "kwh": null,
+    "status": "interrupted"
+  },
+  {
+    "session_id": "ch-007",
+    "vehicle_key": "v-3",
+    "station_id": "S-01",
+    "started_at": "2026-10-16T18:15",
+    "ended_at": "2026-10-16T19:00",
+    "kwh": 22.6,
+    "status": "complete"
+  },
+  {
+    "session_id": "ch-008",
+    "vehicle_key": null,
+    "station_id": "S-01",
+    "started_at": "2026-10-16T18:40",
+    "ended_at": "2026-10-16T19:20",
+    "kwh": 12.0,
+    "status": "complete"
+  },
+  {
+    "session_id": "ch-009",
+    "vehicle_key": "v-4",
+    "station_id": "S-02",
+    "started_at": "2026-10-16T19:05",
+    "ended_at": "2026-10-16T19:45",
+    "kwh": 16.2,
+    "status": "complete"
   }
 ]

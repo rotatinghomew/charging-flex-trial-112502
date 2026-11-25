@@ -10,5 +10,29 @@
     "observed_at": "2026-10-08T19:00",
     "temperature_c": 17,
     "rain": true
+  },
+  {
+    "station_id": "S-01",
+    "observed_at": "2026-10-15T12:00",
+    "temperature_c": 24,
+    "rain": false
+  },
+  {
+    "station_id": "S-02",
+    "observed_at": "2026-10-15T13:00",
+    "temperature_c": 25,
+    "rain": false
+  },
+  {
+    "station_id": "S-01",
+    "observed_at": "2026-10-16T18:00",
+    "temperature_c": 21,
+    "rain": false
+  },
+  {
+    "station_id": "S-02",
+    "observed_at": "2026-10-16T19:00",
+    "temperature_c": 18,
+    "rain": true
   }
 ]

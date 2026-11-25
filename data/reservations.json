@@ -12,5 +12,33 @@
     "starts_at": "2026-10-08T19:00",
     "port_count": 3,
     "status": "proposed"
+  },
+  {
+    "reservation_id": "r-000",
+    "station_id": "S-01",
+    "starts_at": "2026-10-08T18:00",
+    "port_count": 1,
+    "status": "completed"
+  },
+  {
+    "reservation_id": "r-003",
+    "station_id": "S-01",
+    "starts_at": "2026-10-16T18:00",
+    "port_count": 3,
+    "status": "proposed"
+  },
+  {
+    "reservation_id": "r-004",
+    "station_id": "S-01",
+    "starts_at": "2026-10-16T18:30",
+    "port_count": 2,
+    "status": "confirmed"
+  },
+  {
+    "reservation_id": "r-005",
+    "station_id": "S-02",
+    "starts_at": "2026-10-16T19:00",
+    "port_count": 2,
+    "status": "proposed"
   }
 ]

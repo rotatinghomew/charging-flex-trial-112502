@@ -1,0 +1,42 @@
+[
+  {
+    "session_id": "ch-001a",
+    "start_kwh": 40.0,
+    "end_kwh": 61.4
+  },
+  {
+    "session_id": "ch-001b",
+    "start_kwh": 61.4,
+    "end_kwh": null
+  },
+  {
+    "session_id": "ch-002",
+    "start_kwh": 5.0,
+    "end_kwh": 23.0
+  },
+  {
+    "session_id": "ch-003a",
+    "start_kwh": 100.0,
+    "end_kwh": 115.0
+  },
+  {
+    "session_id": "ch-003b",
+    "start_kwh": 8.0,
+    "end_kwh": 25.5
+  },
+  {
+    "session_id": "ch-007",
+    "start_kwh": 30.0,
+    "end_kwh": 52.6
+  },
+  {
+    "session_id": "ch-008",
+    "start_kwh": 11.0,
+    "end_kwh": 23.0
+  },
+  {
+    "session_id": "ch-009",
+    "start_kwh": 60.0,
+    "end_kwh": 76.2
+  }
+]

@@ -15,6 +15,22 @@ class BundleContractTest(unittest.TestCase):
         for name in ('stations.json', 'sessions.json', 'prices.json', 'reservations.json', 'conditions.json'):
             self.assertIsInstance(bundle[name], list)
 
+    def test_optional_files_loaded_when_present(self):
+        bundle = load_bundle(Path(__file__).parents[1] / "data")
+        self.assertIsInstance(bundle["charger_status.json"], list)
+        self.assertIsInstance(bundle["readings.json"], list)
+
+    def test_optional_files_absent_are_not_invented(self):
+        import tempfile
+
+        with tempfile.TemporaryDirectory() as tmp:
+            src = Path(__file__).parents[1] / "data"
+            for name in ('source_info.json', 'stations.json', 'sessions.json', 'prices.json', 'reservations.json', 'conditions.json'):
+                (Path(tmp) / name).write_text((src / name).read_text(encoding="utf-8"), encoding="utf-8")
+            bundle = load_bundle(tmp)
+            self.assertNotIn("charger_status.json", bundle)
+            self.assertNotIn("readings.json", bundle)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -10,5 +10,11 @@
     "district": "south",
     "total_ports": 3,
     "timezone": "Asia/Shanghai"
+  },
+  {
+    "station_id": "S-03",
+    "district": "east",
+    "total_ports": 2,
+    "timezone": "Asia/Shanghai"
   }
 ]

@@ -1,0 +1,51 @@
+[
+  {
+    "station_id": "S-01",
+    "port_id": "S-01-P2",
+    "starts_at": "2026-10-08T18:00",
+    "ends_at": null,
+    "state": "derated"
+  },
+  {
+    "station_id": "S-01",
+    "port_id": "S-01-P3",
+    "starts_at": "2026-10-08T18:30",
+    "ends_at": "2026-10-08T20:00",
+    "state": "maintenance"
+  },
+  {
+    "station_id": "S-02",
+    "port_id": "S-02-P1",
+    "starts_at": "2026-10-08T19:00",
+    "ends_at": "2026-10-08T19:30",
+    "state": "comms_lost"
+  },
+  {
+    "station_id": "S-03",
+    "port_id": "S-03-P1",
+    "starts_at": "2026-10-08T18:00",
+    "ends_at": null,
+    "state": "maintenance"
+  },
+  {
+    "station_id": "S-01",
+    "port_id": "S-01-P1",
+    "starts_at": "2026-10-16T17:30",
+    "ends_at": "2026-10-16T19:00",
+    "state": "maintenance"
+  },
+  {
+    "station_id": "S-01",
+    "port_id": "S-01-P3",
+    "starts_at": "2026-10-16T17:30",
+    "ends_at": "2026-10-16T19:00",
+    "state": "maintenance"
+  },
+  {
+    "station_id": "S-01",
+    "port_id": "S-01-P4",
+    "starts_at": "2026-10-16T18:00",
+    "ends_at": "2026-10-16T19:30",
+    "state": "comms_lost"
+  }
+]

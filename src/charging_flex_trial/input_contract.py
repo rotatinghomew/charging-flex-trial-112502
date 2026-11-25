@@ -8,6 +8,9 @@ from typing import Any
 
 REQUIRED_FILES = ('source_info.json', 'stations.json', 'sessions.json', 'prices.json', 'reservations.json', 'conditions.json')
 
+# 业务分析需要的补充输入；缺失时对应能力降级而不是凭空假设。
+OPTIONAL_FILES = ('charger_status.json', 'readings.json')
+
 
 def load_bundle(root: str | Path) -> dict[str, Any]:
     """读取资料包，保留原始记录、缺失值和顺序。"""
@@ -19,6 +22,11 @@ def load_bundle(root: str | Path) -> dict[str, Any]:
             raise FileNotFoundError(path)
         with path.open(encoding="utf-8") as handle:
             bundle[name] = json.load(handle)
+    for name in OPTIONAL_FILES:
+        path = base / name
+        if path.is_file():
+            with path.open(encoding="utf-8") as handle:
+                bundle[name] = json.load(handle)
     if bundle["source_info.json"].get("source_kind") != "synthetic":
         raise ValueError("资料包必须标明为 synthetic")
     return bundle
