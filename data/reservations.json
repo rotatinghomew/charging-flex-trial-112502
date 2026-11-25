@@ -1,0 +1,16 @@
+[
+  {
+    "reservation_id": "r-001",
+    "station_id": "S-01",
+    "starts_at": "2026-10-08T19:00",
+    "port_count": 2,
+    "status": "confirmed"
+  },
+  {
+    "reservation_id": "r-002",
+    "station_id": "S-01",
+    "starts_at": "2026-10-08T19:00",
+    "port_count": 3,
+    "status": "proposed"
+  }
+]

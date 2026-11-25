@@ -1,0 +1,14 @@
+[
+  {
+    "station_id": "S-01",
+    "observed_at": "2026-10-08T18:00",
+    "temperature_c": 19,
+    "rain": false
+  },
+  {
+    "station_id": "S-02",
+    "observed_at": "2026-10-08T19:00",
+    "temperature_c": 17,
+    "rain": true
+  }
+]

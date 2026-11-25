@@ -1,0 +1,14 @@
+[
+  {
+    "price_version": "p-early",
+    "starts_at": "2026-10-01T00:00",
+    "ends_at": "2026-10-15T00:00",
+    "cny_per_kwh": 1.2
+  },
+  {
+    "price_version": "p-flex",
+    "starts_at": "2026-10-15T00:00",
+    "ends_at": null,
+    "cny_per_kwh": 0.8
+  }
+]

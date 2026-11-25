@@ -1,0 +1,14 @@
+[
+  {
+    "station_id": "S-01",
+    "district": "north",
+    "total_ports": 4,
+    "timezone": "Asia/Shanghai"
+  },
+  {
+    "station_id": "S-02",
+    "district": "south",
+    "total_ports": 3,
+    "timezone": "Asia/Shanghai"
+  }
+]
